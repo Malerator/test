@@ -1,0 +1,50 @@
+#article {
+  margin: 131px 0 112px;
+}
+
+.read {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.read_all {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.read:hover {
+  opacity: 0.5;
+}
+
+.wrap_article-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.wrap_article-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article_card-date {
+  margin: 24px 0 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #8f8f8f;
+}
+
+.article_faq {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #303030;
+}

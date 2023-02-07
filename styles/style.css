@@ -1,0 +1,20 @@
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #303030;
+}
+
+nav {
+  background-color: #f8f8f8;
+}
+
+.container {
+  margin: 0 auto;
+  width: 81.25rem;
+  padding: 0 1rem;
+}

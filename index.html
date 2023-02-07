@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/stocks.css" />
+    <link rel="stylesheet" href="./styles/popular.css" />
+    <link rel="stylesheet" href="./styles/sale.css" />
+    <link rel="stylesheet" href="./styles/product-day.css" />
+    <link rel="stylesheet" href="./styles/article.css" />
+    <link
+      rel="stylesheet"
+      href="/examples/libs/simple-adaptive-slider/simple-adaptive-slider.min.css"
+    />
+    <title>test</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="header">
+          <div class="wrap_left-item">
+            <div class="dropdown">
+              <div class="option">
+                <img
+                  src="./images/Vector.svg"
+                  width="11.59"
+                  height="16"
+                  alt=""
+                />
+                <input
+                  type="text"
+                  class="text2"
+                  readonly
+                  placeholder="Санкт-Петербург"
+                />
+              </div>
+              <div class="options">
+                <div class="drop_choice" onclick="show('Санкт-Петербург')">
+                  <span class="drop_choice-text">Санкт-Петербург</span>
+                </div>
+                <div class="drop_choice" onclick="show('Москва')">
+                  <span class="drop_choice-text">Москва</span>
+                </div>
+                <div class="drop_choice" onclick="show('Нижний Новгород')">
+                  <span class="drop_choice-text">Нижний Новгород</span>
+                </div>
+                <div class="drop_choice" onclick="show('Ростов-на-Дону')">
+                  <span class="drop_choice-text">Ростов-на-Дону</span>
+                </div>
+              </div>
+            </div>
+            <div class="tel">
+              <img src="./images/Vector (1).svg" alt="" />
+              <a href="tel">8 800 785-25-35</a>
+            </div>
+          </div>
+
+          <div class="logo">
+            <p class="logo_text">
+              <span class="logo_text-gold">Goldy</span> Store
+            </p>
+            <p class="logo_text-sub">ювелирный магазин</p>
+          </div>
+          <div class="wrap_head-btn">
+            <button class="head_btn">Вход</button>
+            <span>|</span>
+            <button class="head_btn">Регистрация</button>
+            <div class="cool">
+              <a class="basket" href="">
+                <img
+                  class="basket_img"
+                  width="16"
+                  height="16"
+                  src="./images/coolicon.svg"
+                  alt=""
+                />
+              </a>
+              <a class="basket" href="">
+                <img
+                  class="basket_img"
+                  width="16"
+                  height="16"
+                  src="./images/Group 2.svg"
+                  alt=""
+                />
+              </a>
+              <a class="basket" href="">
+                <img
+                  class="basket_img"
+                  width="16"
+                  height="16"
+                  src="./images/Group 101.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <nav>
+          <ul class="header_menu">
+            <li><a href="#">каталог</a></li>
+            <li><a href="#stocks">акции</a></li>
+            <li><a href="#">бренды</a></li>
+            <li><a href="#">магазин</a></li>
+            <li><a href="#">о нас</a></li>
+            <li><a href="#">доставка и оплата</a></li>
+            <li><a href="#">статьи</a></li>
+            <li>
+              <div class="nav_search">
+                <img src="./images/Union.svg" alt="" />
+                <input
+                  class="search"
+                  type="text"
+                  placeholder="Поиск по сайту"
+                />
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="slider_bl">
+        <div class="container">
+          <div class="wrapper">
+            <input checked type="radio" name="slider" id="slide1" />
+            <input type="radio" name="slider" id="slide2" />
+            <input type="radio" name="slider" id="slide3" />
+            <input type="radio" name="slider" id="slide4" />
+            <div class="slider-wrapper">
+              <div class="inner">
+                <article class="art">
+                  <div class="wrap_left">
+                    <div class="info top-left">
+                      <h3>Суперскидка до 60%</h3>
+                      <p class="slider_info">на бриллианты</p>
+                      <button class="slider_btn">подробнее</button>
+                    </div>
+                  </div>
+                  <div class="stocks_img">
+                    <img src="./images/pngegg 1.png" />
+                  </div>
+                </article>
+                <article class="art">
+                  <div class="wrap_left">
+                    <div class="info top-left">
+                      <h3>Суперскидка до 60%</h3>
+                      <p class="slider_info">на бриллианты</p>
+                      <button class="slider_btn">подробнее</button>
+                    </div>
+                  </div>
+                  <div class="stocks_img">
+                    <img src="./images/pngegg 1.png" />
+                  </div>
+                </article>
+                <article class="art">
+                  <div class="wrap_left">
+                    <div class="info top-left">
+                      <h3>Суперскидка до 60%</h3>
+                      <p class="slider_info">на бриллианты</p>
+                      <button class="slider_btn">подробнее</button>
+                    </div>
+                  </div>
+                  <div class="stocks_img">
+                    <img src="./images/pngegg 1.png" />
+                  </div>
+                </article>
+                <article class="art">
+                  <div class="wrap_left">
+                    <div class="info top-left">
+                      <h3>Суперскидка до 60%</h3>
+                      <p class="slider_info">на бриллианты</p>
+                      <button class="slider_btn">подробнее</button>
+                    </div>
+                  </div>
+                  <div class="stocks_img">
+                    <img src="./images/pngegg 1.png" />
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="slider-prev-next-control">
+              <label for="slide1"
+                ><span class="slide_btn next"
+                  ><img class="arrow" src="./images/Arrow 1.svg" alt="" /></span
+              ></label>
+              <label for="slide2"
+                ><span class="slide_btn prev"
+                  ><img
+                    class="arrow1"
+                    src="./images/Arrow 1.svg"
+                    alt="" /></span
+              ></label>
+              <label for="slide3"
+                ><span class="slide_btn next"
+                  ><img class="arrow" src="./images/Arrow 1.svg" alt="" /></span
+              ></label>
+              <label for="slide4"
+                ><span class="slide_btn prev"
+                  ><img
+                    class="arrow1"
+                    src="./images/Arrow 1.svg"
+                    alt="" /></span
+              ></label>
+            </div>
+            <div class="slider-dot-control">
+              <label for="slide1"></label>
+              <label for="slide2"></label>
+              <label for="slide3"></label>
+              <label for="slide4"></label>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="popular">
+        <div class="container">
+          <h2>Популярные категории</h2>
+          <div class="wrap_popular-category">
+            <div class="popular_card">
+              <img
+                width="127"
+                height="100"
+                src="./images/pngegg (1) 4 (1).png"
+                alt="img"
+                srcset="./images/pngegg (1) 4 (1).png 1x, ./images/pngegg (1) 4 (1).png 2x"
+              />
+              <div class="popular_item">
+                <p class="popular_card-item">Кольца</p>
+              </div>
+            </div>
+            <div class="popular_card">
+              <img
+                srcset="./images/pngegg (2) 4.png 1x, ./images/pngegg (2) 4@2x.png 2x"
+                src="./images/pngegg (2) 4.png"
+                width="102"
+                height="130"
+                alt=""
+              />
+              <div class="popular_item">
+                <p class="popular_card-item">Серьги</p>
+              </div>
+            </div>
+            <div class="popular_card">
+              <img src="./images/pngegg (3) 4.png" alt="" />
+              <div class="popular_item">
+                <p class="popular_card-item">Помолвочные кольца</p>
+              </div>
+            </div>
+            <div class="popular_card">
+              <img src="./images/pngegg (4) 4.png" alt="" />
+              <div class="popular_item">
+                <p class="popular_card-item">Браслеты</p>
+              </div>
+            </div>
+            <div class="popular_card">
+              <img src="./images/pngegg (5) 4.png" alt="" />
+              <div class="popular_item">
+                <p class="popular_card-item">Колье и подвески</p>
+              </div>
+            </div>
+            <div class="popular_card">
+              <img src="./images/pngegg (6) 4.png" alt="" />
+              <div class="popular_item">
+                <p class="popular_card-item">Часы</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="sale">
+        <div class="container">
+          <h4>Распродажа</h4>
+          <div class="sale_wrapAll">
+            <div class="sale_wrap-btn">
+              <button class="sale_btn">Кольца</button>
+              <button class="sale_btn">Серьги</button>
+              <button class="sale_btn">Браслеты</button>
+              <button class="sale_btn">Часы</button>
+            </div>
+            <div class="slide-arrow">
+              <button id="slide-arrow-prev" class="slide_btn prev">
+                <img class="arrow" src="./images/Arrow 1.svg" alt="" />
+              </button>
+              <button id="slide-arrow-next" class="slide_btn next">
+                <img class="arrow1" src="./images/Arrow 1.svg" alt="" />
+              </button>
+            </div>
+          </div>
+
+          <section class="slider-wrapper">
+            <ul class="slides-container" id="slides-container">
+              <li class="slide">
+                <div class="carousel-item">
+                  <span class="slider_img-sale">Sale</span>
+                  <div class="wrap_slider-icon">
+                    <div class="coolicon"></div>
+                    <div class="eye"></div>
+                  </div>
+                  <div
+                    class="itc-slider"
+                    data-slider="itc-slider"
+                    data-autoplay="true"
+                    data-interval="8000"
+                  >
+                    <div class="itc-slider__wrapper">
+                      <div class="itc-slider__items">
+                        <div class="itc-slider__item">
+                          <img
+                            class="slider_img"
+                            src="./images/colzo.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="itc-slider__item">
+                          <img
+                            class="slider_img"
+                            src="./images/colzo.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="itc-slider__item">
+                          <img
+                            class="slider_img"
+                            src="./images/colzo.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <ol class="itc-slider__indicators">
+                      <li class="itc-slider__indicator" data-slide-to="0"></li>
+                      <li class="itc-slider__indicator" data-slide-to="1"></li>
+                      <li class="itc-slider__indicator" data-slide-to="2"></li>
+                    </ol>
+                  </div>
+                  <div class="slider_price-item">
+                    <p class="slider_price">41 000 ₽</p>
+                    <p class="slider_over_price">65 000 ₽</p>
+                    <span class="card_percent">-45%</span>
+                  </div>
+                  <p class="carousel_slider-item">
+                    Стильное кольцо из белого золота c бриллиантами
+                  </p>
+                  <div class="wrap_drop">
+                    <div class="drop_down">
+                      <div class="drop_btn">
+                        <p class="drop_btn-item">Белое золото</p>
+                        <img src="./images/Rectangle 50 (1).svg" alt="" />
+                      </div>
+                      <div class="dropdown-content">
+                        <a href="#">Белое золото</a>
+                        <a href="#">Желтое золото</a>
+                        <a href="#">Серебро</a>
+                      </div>
+                    </div>
+                    <div class="drop_down">
+                      <div class="drop_btn">
+                        <p class="drop_btn-item">Размер: 16</p>
+                        <img src="./images/Rectangle 50 (1).svg" alt="" />
+                      </div>
+                      <div class="dropdown-content">
+                        <a href="#">Размер: 16</a>
+                        <a href="#">Размер: 17</a>
+                        <a href="#">Размер: 18</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <span class="slider_img-sale">Sale</span>
+                  <div class="wrap_slider-icon">
+                    <div class="coolicon"></div>
+                    <div class="eye"></div>
+                  </div>
+                  <div
+                    class="itc-slider"
+                    data-slider="itc-slider"
+                    data-autoplay="true"
+                    data-interval="8000"
+                  >
+                    <div class="itc-slider__wrapper">
+                      <div class="itc-slider__items">
+                        <div class="itc-slider__item">
+                          <img
+                            class="slider_img"
+                            src="./images/colzo.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="itc-slider__item">
+                          <img
+                            class="slider_img"
+                            src="./images/colzo.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="itc-slider__item">
+                          <img
+                            class="slider_img"
+                            src="./images/colzo.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <ol class="itc-slider__indicators">
+                      <li class="itc-slider__indicator" data-slide-to="0"></li>
+                      <li class="itc-slider__indicator" data-slide-to="1"></li>
+                      <li class="itc-slider__indicator" data-slide-to="2"></li>
+                    </ol>
+                  </div>
+                  <div class="slider_price-item">
+                    <p class="slider_price">41 000 ₽</p>
+                    <p class="slider_over_price">65 000 ₽</p>
+                    <span class="card_percent">-45%</span>
+                  </div>
+                  <p class="carousel_slider-item">
+                    Стильное кольцо из белого золота c бриллиантами
+                  </p>
+                  <div class="wrap_drop">
+                    <div class="drop_down">
+                      <div class="drop_btn">
+                        <p class="drop_btn-item">Белое золото</p>
+                        <img src="./images/Rectangle 50 (1).svg" alt="" />
+                      </div>
+                      <div class="dropdown-content">
+                        <a href="#">Белое золото</a>
+                        <a href="#">Желтое золото</a>
+                        <a href="#">Серебро</a>
+                      </div>
+                    </div>
+                    <div class="drop_down">
+                      <div class="drop_btn">
+                        <p class="drop_btn-item">Размер: 16</p>
+                        <img src="./images/Rectangle 50 (1).svg" alt="" />
+                      </div>
+                      <div class="dropdown-content">
+                        <a href="#">Размер: 16</a>
+                        <a href="#">Размер: 17</a>
+                        <a href="#">Размер: 18</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <span class="slider_img-sale">Sale</span>
+                  <div class="wrap_slider-icon">
+                    <div class="coolicon"></div>
+                    <div class="eye"></div>
+                  </div>
+                  <div
+                    class="itc-slider"
+                    data-slider="itc-slider"
+                    data-autoplay="true"
+                    data-interval="8000"
+                  >
+                    <div class="itc-slider__wrapper">
+                      <div class="itc-slider__items">
+                        <div class="itc-slider__item">
+                          <img
+                            class="slider_img"
+                            src="./images/colzo.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="itc-slider__item">
+                          <img
+                            class="slider_img"
+                            src="./images/colzo.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="itc-slider__item">
+                          <img
+                            class="slider_img"
+                            src="./images/colzo.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <ol class="itc-slider__indicators">
+                      <li class="itc-slider__indicator" data-slide-to="0"></li>
+                      <li class="itc-slider__indicator" data-slide-to="1"></li>
+                      <li class="itc-slider__indicator" data-slide-to="2"></li>
+                    </ol>
+                  </div>
+                  <div class="slider_price-item">
+                    <p class="slider_price">41 000 ₽</p>
+                    <p class="slider_over_price">65 000 ₽</p>
+                    <span class="card_percent">-45%</span>
+                  </div>
+                  <p class="carousel_slider-item">
+                    Стильное кольцо из белого золота c бриллиантами
+                  </p>
+                  <div class="wrap_drop">
+                    <div class="drop_down">
+                      <div class="drop_btn">
+                        <p class="drop_btn-item">Белое золото</p>
+                        <img src="./images/Rectangle 50 (1).svg" alt="" />
+                      </div>
+                      <div class="dropdown-content">
+                        <a href="#">Белое золото</a>
+                        <a href="#">Желтое золото</a>
+                        <a href="#">Серебро</a>
+                      </div>
+                    </div>
+                    <div class="drop_down">
+                      <div class="drop_btn">
+                        <p class="drop_btn-item">Размер: 16</p>
+                        <img src="./images/Rectangle 50 (1).svg" alt="" />
+                      </div>
+                      <div class="dropdown-content">
+                        <a href="#">Размер: 16</a>
+                        <a href="#">Размер: 17</a>
+                        <a href="#">Размер: 18</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <span class="slider_img-sale">Sale</span>
+                  <div class="wrap_slider-icon">
+                    <div class="coolicon"></div>
+                    <div class="eye"></div>
+                  </div>
+                  <div
+                    class="itc-slider"
+                    data-slider="itc-slider"
+                    data-autoplay="true"
+                    data-interval="8000"
+                  >
+                    <div class="itc-slider__wrapper">
+                      <div class="itc-slider__items">
+                        <div class="itc-slider__item">
+                          <img
+                            class="slider_img"
+                            src="./images/colzo.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="itc-slider__item">
+                          <img
+                            class="slider_img"
+                            src="./images/colzo.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="itc-slider__item">
+                          <img
+                            class="slider_img"
+                            src="./images/colzo.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <ol class="itc-slider__indicators">
+                      <li class="itc-slider__indicator" data-slide-to="0"></li>
+                      <li class="itc-slider__indicator" data-slide-to="1"></li>
+                      <li class="itc-slider__indicator" data-slide-to="2"></li>
+                    </ol>
+                  </div>
+                  <div class="slider_price-item">
+                    <p class="slider_price">41 000 ₽</p>
+                    <p class="slider_over_price">65 000 ₽</p>
+                    <span class="card_percent">-45%</span>
+                  </div>
+                  <p class="carousel_slider-item">
+                    Стильное кольцо из белого золота c бриллиантами
+                  </p>
+                  <div class="wrap_drop">
+                    <div class="drop_down">
+                      <div class="drop_btn">
+                        <p class="drop_btn-item">Белое золото</p>
+                        <img src="./images/Rectangle 50 (1).svg" alt="" />
+                      </div>
+                      <div class="dropdown-content">
+                        <a href="#">Белое золото</a>
+                        <a href="#">Желтое золото</a>
+                        <a href="#">Серебро</a>
+                      </div>
+                    </div>
+                    <div class="drop_down">
+                      <div class="drop_btn">
+                        <p class="drop_btn-item">Размер: 16</p>
+                        <img src="./images/Rectangle 50 (1).svg" alt="" />
+                      </div>
+                      <div class="dropdown-content">
+                        <a href="#">Размер: 16</a>
+                        <a href="#">Размер: 17</a>
+                        <a href="#">Размер: 18</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="carousel-item">
+                  <span class="slider_img-sale">Sale</span>
+                  <div class="wrap_slider-icon">
+                    <div class="coolicon"></div>
+                    <div class="eye"></div>
+                  </div>
+                  <div
+                    class="itc-slider"
+                    data-slider="itc-slider"
+                    data-autoplay="true"
+                    data-interval="8000"
+                  >
+                    <div class="itc-slider__wrapper">
+                      <div class="itc-slider__items">
+                        <div class="itc-slider__item">
+                          <img
+                            class="slider_img"
+                            src="./images/colzo.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="itc-slider__item">
+                          <img
+                            class="slider_img"
+                            src="./images/colzo.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="itc-slider__item">
+                          <img
+                            class="slider_img"
+                            src="./images/colzo.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <ol class="itc-slider__indicators">
+                      <li class="itc-slider__indicator" data-slide-to="0"></li>
+                      <li class="itc-slider__indicator" data-slide-to="1"></li>
+                      <li class="itc-slider__indicator" data-slide-to="2"></li>
+                    </ol>
+                  </div>
+                  <div class="slider_price-item">
+                    <p class="slider_price">41 000 ₽</p>
+                    <p class="slider_over_price">65 000 ₽</p>
+                    <span class="card_percent">-45%</span>
+                  </div>
+                  <p class="carousel_slider-item">
+                    Стильное кольцо из белого золота c бриллиантами
+                  </p>
+                  <div class="wrap_drop">
+                    <div class="drop_down">
+                      <div class="drop_btn">
+                        <p class="drop_btn-item">Белое золото</p>
+                        <img src="./images/Rectangle 50 (1).svg" alt="" />
+                      </div>
+                      <div class="dropdown-content">
+                        <a href="#">Белое золото</a>
+                        <a href="#">Желтое золото</a>
+                        <a href="#">Серебро</a>
+                      </div>
+                    </div>
+                    <div class="drop_down">
+                      <div class="drop_btn">
+                        <p class="drop_btn-item">Размер: 16</p>
+                        <img src="./images/Rectangle 50 (1).svg" alt="" />
+                      </div>
+                      <div class="dropdown-content">
+                        <a href="#">Размер: 16</a>
+                        <a href="#">Размер: 17</a>
+                        <a href="#">Размер: 18</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <span class="slider_img-sale">Sale</span>
+                  <div class="wrap_slider-icon">
+                    <div class="coolicon"></div>
+                    <div class="eye"></div>
+                  </div>
+                  <div
+                    class="itc-slider"
+                    data-slider="itc-slider"
+                    data-autoplay="true"
+                    data-interval="8000"
+                  >
+                    <div class="itc-slider__wrapper">
+                      <div class="itc-slider__items">
+                        <div class="itc-slider__item">
+                          <img
+                            class="slider_img"
+                            src="./images/colzo.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="itc-slider__item">
+                          <img
+                            class="slider_img"
+                            src="./images/colzo.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="itc-slider__item">
+                          <img
+                            class="slider_img"
+                            src="./images/colzo.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <ol class="itc-slider__indicators">
+                      <li class="itc-slider__indicator" data-slide-to="0"></li>
+                      <li class="itc-slider__indicator" data-slide-to="1"></li>
+                      <li class="itc-slider__indicator" data-slide-to="2"></li>
+                    </ol>
+                  </div>
+                  <div class="slider_price-item">
+                    <p class="slider_price">41 000 ₽</p>
+                    <p class="slider_over_price">65 000 ₽</p>
+                    <span class="card_percent">-45%</span>
+                  </div>
+                  <p class="carousel_slider-item">
+                    Стильное кольцо из белого золота c бриллиантами
+                  </p>
+                  <div class="wrap_drop">
+                    <div class="drop_down">
+                      <div class="drop_btn">
+                        <p class="drop_btn-item">Белое золото</p>
+                        <img src="./images/Rectangle 50 (1).svg" alt="" />
+                      </div>
+                      <div class="dropdown-content">
+                        <a href="#">Белое золото</a>
+                        <a href="#">Желтое золото</a>
+                        <a href="#">Серебро</a>
+                      </div>
+                    </div>
+                    <div class="drop_down">
+                      <div class="drop_btn">
+                        <p class="drop_btn-item">Размер: 16</p>
+                        <img src="./images/Rectangle 50 (1).svg" alt="" />
+                      </div>
+                      <div class="dropdown-content">
+                        <a href="#">Размер: 16</a>
+                        <a href="#">Размер: 17</a>
+                        <a href="#">Размер: 18</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <span class="slider_img-sale">Sale</span>
+                  <div class="wrap_slider-icon">
+                    <div class="coolicon"></div>
+                    <div class="eye"></div>
+                  </div>
+                  <div
+                    class="itc-slider"
+                    data-slider="itc-slider"
+                    data-autoplay="true"
+                    data-interval="8000"
+                  >
+                    <div class="itc-slider__wrapper">
+                      <div class="itc-slider__items">
+                        <div class="itc-slider__item">
+                          <img
+                            class="slider_img"
+                            src="./images/colzo.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="itc-slider__item">
+                          <img
+                            class="slider_img"
+                            src="./images/colzo.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="itc-slider__item">
+                          <img
+                            class="slider_img"
+                            src="./images/colzo.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <ol class="itc-slider__indicators">
+                      <li class="itc-slider__indicator" data-slide-to="0"></li>
+                      <li class="itc-slider__indicator" data-slide-to="1"></li>
+                      <li class="itc-slider__indicator" data-slide-to="2"></li>
+                    </ol>
+                  </div>
+                  <div class="slider_price-item">
+                    <p class="slider_price">41 000 ₽</p>
+                    <p class="slider_over_price">65 000 ₽</p>
+                    <span class="card_percent">-45%</span>
+                  </div>
+                  <p class="carousel_slider-item">
+                    Стильное кольцо из белого золота c бриллиантами
+                  </p>
+                  <div class="wrap_drop">
+                    <div class="drop_down">
+                      <div class="drop_btn">
+                        <p class="drop_btn-item">Белое золото</p>
+                        <img src="./images/Rectangle 50 (1).svg" alt="" />
+                      </div>
+                      <div class="dropdown-content">
+                        <a href="#">Белое золото</a>
+                        <a href="#">Желтое золото</a>
+                        <a href="#">Серебро</a>
+                      </div>
+                    </div>
+                    <div class="drop_down">
+                      <div class="drop_btn">
+                        <p class="drop_btn-item">Размер: 16</p>
+                        <img src="./images/Rectangle 50 (1).svg" alt="" />
+                      </div>
+                      <div class="dropdown-content">
+                        <a href="#">Размер: 16</a>
+                        <a href="#">Размер: 17</a>
+                        <a href="#">Размер: 18</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <span class="slider_img-sale">Sale</span>
+                  <div class="wrap_slider-icon">
+                    <div class="coolicon"></div>
+                    <div class="eye"></div>
+                  </div>
+                  <div
+                    class="itc-slider"
+                    data-slider="itc-slider"
+                    data-autoplay="true"
+                    data-interval="8000"
+                  >
+                    <div class="itc-slider__wrapper">
+                      <div class="itc-slider__items">
+                        <div class="itc-slider__item">
+                          <img
+                            class="slider_img"
+                            src="./images/colzo.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="itc-slider__item">
+                          <img
+                            class="slider_img"
+                            src="./images/colzo.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="itc-slider__item">
+                          <img
+                            class="slider_img"
+                            src="./images/colzo.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <ol class="itc-slider__indicators">
+                      <li class="itc-slider__indicator" data-slide-to="0"></li>
+                      <li class="itc-slider__indicator" data-slide-to="1"></li>
+                      <li class="itc-slider__indicator" data-slide-to="2"></li>
+                    </ol>
+                  </div>
+                  <div class="slider_price-item">
+                    <p class="slider_price">41 000 ₽</p>
+                    <p class="slider_over_price">65 000 ₽</p>
+                    <span class="card_percent">-45%</span>
+                  </div>
+                  <p class="carousel_slider-item">
+                    Стильное кольцо из белого золота c бриллиантами
+                  </p>
+                  <div class="wrap_drop">
+                    <div class="drop_down">
+                      <div class="drop_btn">
+                        <p class="drop_btn-item">Белое золото</p>
+                        <img src="./images/Rectangle 50 (1).svg" alt="" />
+                      </div>
+                      <div class="dropdown-content">
+                        <a href="#">Белое золото</a>
+                        <a href="#">Желтое золото</a>
+                        <a href="#">Серебро</a>
+                      </div>
+                    </div>
+                    <div class="drop_down">
+                      <div class="drop_btn">
+                        <p class="drop_btn-item">Размер: 16</p>
+                        <img src="./images/Rectangle 50 (1).svg" alt="" />
+                      </div>
+                      <div class="dropdown-content">
+                        <a href="#">Размер: 16</a>
+                        <a href="#">Размер: 17</a>
+                        <a href="#">Размер: 18</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+          <div class="wrap_sale-card">
+            <div class="sale_card">
+              <div class="sale_wrap-item">
+                <p class="sale_card-text">
+                  Скидки <br />
+                  на все украшения с бриллиантами
+                </p>
+                <span class="sale_pers">
+                  <p class="text1">До</p>
+                  <p class="text3">-50%</p>
+                </span>
+              </div>
+              <img src="./images/pngegg 2.png" height="292" alt="" />
+            </div>
+            <div class="sale_card">
+              <div class="sale_wrap-item">
+                <p class="sale_card-text">
+                  Скидки <br />
+                  на кольца и браслеты
+                </p>
+                <span class="sale_pers1">
+                  <p class="text1">До</p>
+                  <p class="text3">-40%</p>
+                </span>
+              </div>
+              <img class="img" src="./images/pngegg (1) 5.png" alt="" />
+            </div>
+            <div class="sale_card">
+              <div class="sale_wrap-item">
+                <p class="sale_card-text">
+                  снижение цен <br />
+                  на обручальные кольца
+                </p>
+                <span class="sale_pers2">
+                  <p class="text1">До</p>
+                  <p class="text3">-60%</p>
+                </span>
+              </div>
+              <img src="./images/pngegg (3) 5.png" width="197" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="produckt_day">
+        <div class="container">
+          <div class="wrap_h1-btn">
+            <h2>Товар дня</h2>
+            <div class="slide-arrow1">
+              <button
+                onclick="minusSlide()"
+                id="slide-arrow-prev"
+                class="slide_btn prev1"
+              >
+                <img class="arrow2" src="./images/Arrow 1.svg" alt="" />
+              </button>
+              <button
+                onclick="plusSlide()"
+                id="slide-arrow-next"
+                class="slide_btn next1"
+              >
+                <img class="arrow3" src="./images/Arrow 1.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="slider">
+            <div class="item">
+              <div class="wrap">
+                <div class="b-carousel js-carousel">
+                  <button class="b-carousel__prev js-carousel__prev">
+                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                  </button>
+                  <button class="b-carousel__next js-carousel__next">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  </button>
+                  <div class="b-carousel__wrap js-carousel__wrap">
+                    <div class="b-carousel__item">
+                      <div class="wrap__btn">
+                        <span class="wrap__btn-span">New</span>
+                        <span class="wrap__btn-span2">Хит</span>
+                        <span class="wrap__btn-span3">Sale</span>
+                      </div>
+                      <img
+                        src="images/04EDA19C9767F7100CFFDE5D049E 1.png"
+                        alt=""
+                        class="b-carousel__img"
+                      />
+                    </div>
+                    <div class="b-carousel__item">
+                      <div class="wrap__btn">
+                        <span class="wrap__btn-span">New</span>
+                        <span class="wrap__btn-span2">Хит</span>
+                        <span class="wrap__btn-span3">Sale</span>
+                      </div>
+                      <img
+                        src="images/04EDA19C9767F7100CFFDE5D049E 1.png"
+                        alt=""
+                        class="b-carousel__img"
+                      />
+                    </div>
+                    <div class="b-carousel__item">
+                      <div class="wrap__btn">
+                        <span class="wrap__btn-span">New</span>
+                        <span class="wrap__btn-span2">Хит</span>
+                        <span class="wrap__btn-span3">Sale</span>
+                      </div>
+                      <img
+                        src="images/04EDA19C9767F7100CFFDE5D049E 1.png"
+                        alt=""
+                        class="b-carousel__img"
+                      />
+                    </div>
+                    <div class="b-carousel__item">
+                      <div class="wrap__btn">
+                        <span class="wrap__btn-span">New</span>
+                        <span class="wrap__btn-span2">Хит</span>
+                        <span class="wrap__btn-span3">Sale</span>
+                      </div>
+                      <img
+                        src="images/04EDA19C9767F7100CFFDE5D049E 1.png"
+                        alt=""
+                        class="b-carousel__img"
+                      />
+                    </div>
+                    <div class="b-carousel__item">
+                      <div class="wrap__btn">
+                        <span class="wrap__btn-span">New</span>
+                        <span class="wrap__btn-span2">Хит</span>
+                        <span class="wrap__btn-span3">Sale</span>
+                      </div>
+                      <img
+                        src="images/04EDA19C9767F7100CFFDE5D049E 1.png"
+                        alt=""
+                        class="b-carousel__img"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="wrap_rigth">
+                  <div class="wrap_star">
+                    <div class="rating-result">
+                      <span class="active"></span>
+                      <span class="active"></span>
+                      <span class="active"></span>
+                      <span class="active"></span>
+                      <span></span>
+                    </div>
+                    <span class="star_span">4,2</span>
+                  </div>
+                  <p class="wrap_left-desc">Кольцо из золота с бриллиантами</p>
+                  <p class="articul">Артикул: 1012076</p>
+                  <div class="time_offer">
+                    <p class="time_offer-price">22 000 ₽</p>
+                    <p class="time_offer-discount">22 000 ₽</p>
+                    <span class="discount_percent">-45%</span>
+                    <div class="time">
+                      <div class="timer">
+                        <p class="h"></p>
+                        <p class="h_item">часов</p>
+                      </div>
+                      :
+                      <div class="timer">
+                        <p class="m"></p>
+                        <p class="h_item">минут</p>
+                      </div>
+                      :
+                      <div class="timer">
+                        <p class="s"></p>
+                        <p class="h_item">секунд</p>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="color">цвет</p>
+                  <div class="around">
+                    <div class="outer_circle">
+                      <div class="inner_circle"></div>
+                    </div>
+                    <div class="outer_circle">
+                      <div class="inner_circle gold"></div>
+                    </div>
+                    <div class="outer_circle">
+                      <div class="inner_circle orange"></div>
+                    </div>
+                    <div class="outer_circle">
+                      <div class="inner_circle green"></div>
+                    </div>
+                  </div>
+                  <div class="size">
+                    <p class="size_text">Размер</p>
+                    <button type="button" class="qwes">?</button>
+                    <div class="wrap_qwestion">
+                      <div class="qwestion">
+                        <p class="qwestion_text">
+                          Также как существующая <br />
+                          теория напрямую зависит от экономической <br />
+                          целесообразности <br />
+                          принимаемых решений.
+                        </p>
+                        <div class="bottom"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <ul class="size_item">
+                    <li><button class="size_item-list">16,5</button></li>
+                    <li><button class="size_item-list">17,5</button></li>
+                    <li><button class="size_item-list">18,5</button></li>
+                    <li><button class="size_item-list">18</button></li>
+                    <li><button class="size_item-list">19</button></li>
+                    <li><button class="size_item-list">21</button></li>
+                    <li><button class="size_item-list">21,5</button></li>
+                    <li><button class="size_item-list">18</button></li>
+                    <li><button class="size_item-list not-in">19,5</button></li>
+                    <li><button class="size_item-list not-in">20</button></li>
+                  </ul>
+                  <div class="wrap_bask">
+                    <button class="bask_btn">в корзину</button>
+                    <button class="bask_btn click">купить в 1 клик</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="wrap">
+                <div class="b-carousel js-carousel">
+                  <button class="b-carousel__prev js-carousel__prev">
+                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                  </button>
+                  <button class="b-carousel__next js-carousel__next">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  </button>
+                  <div class="b-carousel__wrap js-carousel__wrap">
+                    <div class="b-carousel__item">
+                      <div class="wrap__btn">
+                        <span class="wrap__btn-span">New</span>
+                        <span class="wrap__btn-span2">Хит</span>
+                        <span class="wrap__btn-span3">Sale</span>
+                      </div>
+                      <img
+                        src="./images/pngegg 1.png"
+                        alt=""
+                        class="b-carousel__img"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="wrap_rigth">
+                  <div class="wrap_star">
+                    <div class="rating-result">
+                      <span class="active"></span>
+                      <span class="active"></span>
+                      <span class="active"></span>
+                      <span class="active"></span>
+                      <span></span>
+                    </div>
+                    <span class="star_span">4,2</span>
+                  </div>
+                  <p class="wrap_left-desc">Кольцо из золота с бриллиантами</p>
+                  <p class="articul">Артикул: 1012076</p>
+                  <div class="time_offer">
+                    <p class="time_offer-price">22 000 ₽</p>
+                    <p class="time_offer-discount">22 000 ₽</p>
+                    <span class="discount_percent">-45%</span>
+                    <div class="time">
+                      <div class="timer">
+                        <p class="h"></p>
+                        <p class="h_item">часов</p>
+                      </div>
+                      :
+                      <div class="timer">
+                        <p class="m"></p>
+                        <p class="h_item">минут</p>
+                      </div>
+                      :
+                      <div class="timer">
+                        <p class="s"></p>
+                        <p class="h_item">секунд</p>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="color">цвет</p>
+                  <div class="around">
+                    <div class="outer_circle">
+                      <div class="inner_circle"></div>
+                    </div>
+                    <div class="outer_circle">
+                      <div class="inner_circle gold"></div>
+                    </div>
+                    <div class="outer_circle">
+                      <div class="inner_circle orange"></div>
+                    </div>
+                    <div class="outer_circle">
+                      <div class="inner_circle green"></div>
+                    </div>
+                  </div>
+                  <div class="size">
+                    <p class="size_text">Размер</p>
+                    <button type="button" class="qwes">?</button>
+                    <div class="wrap_qwestion">
+                      <div class="qwestion">
+                        <p class="qwestion_text">
+                          Также как существующая <br />
+                          теория напрямую зависит от экономической <br />
+                          целесообразности <br />
+                          принимаемых решений.
+                        </p>
+                        <div class="bottom"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <ul class="size_item">
+                    <li><button class="size_item-list">16,5</button></li>
+                    <li><button class="size_item-list">17,5</button></li>
+                    <li><button class="size_item-list">18,5</button></li>
+                    <li><button class="size_item-list">18</button></li>
+                    <li><button class="size_item-list">19</button></li>
+                    <li><button class="size_item-list">21</button></li>
+                    <li><button class="size_item-list">21,5</button></li>
+                    <li><button class="size_item-list">18</button></li>
+                    <li><button class="size_item-list not-in">19,5</button></li>
+                    <li><button class="size_item-list not-in">20</button></li>
+                  </ul>
+                  <div class="wrap_bask">
+                    <button class="bask_btn">в корзину</button>
+                    <button class="bask_btn click">купить в 1 клик</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="article">
+        <div class="container">
+          <div class="wrap_article-head">
+            <h2>Статьи</h2>
+            <div class="read">
+              <a class="read_all" href="#">Читать все</a>
+              <img src="./images/Arrow 1.svg" width="26" alt="" />
+            </div>
+          </div>
+          <div class="wrap_article-card">
+            <div class="article_card">
+              <img
+                src="./images/mathilde-langevin-f1FkoppimsA-unsplash 1 (1).jpg"
+                width="310"
+                height="381"
+                alt=""
+              />
+              <p class="article_card-date">21 сентября 2021</p>
+              <p class="article_faq">Обручальные кольца: тренды 2021</p>
+            </div>
+            <div class="article_card">
+              <img
+                src="./images/raphael-lovaski-guiVHikFkvQ-unsplash 1.jpg"
+                width="310"
+                height="381"
+                alt=""
+              />
+              <p class="article_card-date">25 сентября 2021</p>
+              <p class="article_faq">Главные ювелирные тренды года</p>
+            </div>
+            <div class="article_card">
+              <img
+                src="./images/fiona-murray-KE95wIwKp4Y-unsplash 1.jpg"
+                width="310"
+                height="381"
+                alt=""
+              />
+              <p class="article_card-date">21 сентября 2021</p>
+              <p class="article_faq">
+                Жемчуг: 7 малоизвестных фактов о культовом украшении
+              </p>
+            </div>
+            <div class="article_card">
+              <img
+                src="./images/anastasia-anastasia-nlQFycTD04M-unsplash 1.jpg"
+                width="310"
+                height="381"
+                alt=""
+              />
+              <p class="article_card-date">21 сентября 2021</p>
+              <p class="article_faq">
+                Как отличить золото от подделки: 10 практических советов
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+    <script src="slider.js" defer></script>
+  </body>
+</html>

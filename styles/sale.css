@@ -1,0 +1,428 @@
+#sale {
+  margin-top: 120px;
+  position: relative;
+}
+
+h4 {
+  margin-bottom: 24px;
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 100%;
+}
+
+.sale_wrap-btn {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 36px;
+}
+
+.sale_btn {
+  padding: 13px 30px;
+  background-color: #f0f0f0;
+  border: 0;
+  outline: none;
+  border-radius: 21px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #303030;
+}
+
+.sale_btn:hover {
+  background-color: #dddddd;
+  color: #303030;
+}
+
+.sale_btn:active {
+  background-color: #303030;
+  color: #fff;
+}
+
+/* /////////////////////// */
+
+.itc-slider {
+  position: relative;
+}
+
+.itc-slider__wrapper {
+  overflow: hidden;
+}
+
+.itc-slider__items {
+  display: flex;
+  transition: transform 0.5s ease;
+  will-change: transform;
+}
+
+.itc-slider__transition-none {
+  transition: none;
+}
+
+.itc-slider__item {
+  flex: 0 0 100%;
+  max-width: 100%;
+  user-select: none;
+  will-change: transform;
+  margin-top: 38px;
+}
+
+.slider_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.slider_price-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 26px;
+  margin-bottom: 16px;
+}
+
+.slider_price {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  color: #303030;
+}
+
+.slider_over_price {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  text-decoration-line: line-through;
+  color: #8f8f8f;
+}
+
+.card_percent {
+  background: #e24b33;
+  padding: 2.5px 8px;
+  border-radius: 15px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 100%;
+}
+
+.carousel_slider-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  height: 44px;
+  line-height: 160%;
+  color: #303030;
+  margin-bottom: 26px;
+}
+
+/* индикаторы */
+.itc-slider__indicators {
+  position: absolute;
+  right: 0;
+  bottom: 6px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0 15%;
+  padding-left: 0;
+  list-style: none;
+}
+
+.itc-slider__indicator {
+  flex: 0 1 auto;
+  box-sizing: content-box;
+  width: 8px;
+  height: 8px;
+  margin-right: 8px;
+  margin-left: 8px;
+  text-indent: -999px;
+  border: 1px solid #303030;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.itc-slider__indicator_active {
+  background-color: #303030;
+}
+
+/* //////////////////меню карточек////////// */
+.drop_btn {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  color: white;
+  padding: 9px 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.drop_btn-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #303030;
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+  background-color: #ffffff;
+  min-width: 261px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #fafafa;
+}
+
+.drop_down:hover .dropdown-content {
+  display: block;
+}
+
+.wrap_drop {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.carousel-item {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 24px;
+  width: 310px;
+  height: fit-content;
+  border: 1px solid #f0f0f0;
+}
+
+.slider_img-sale {
+  top: 16px;
+  left: 24px;
+  position: absolute;
+  padding: 4px 11px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 100%;
+  color: #ffffff;
+  background-color: #5b8a8f;
+  border-radius: 15px;
+}
+
+.wrap_slider-icon {
+  position: absolute;
+  top: 19px;
+  right: 22px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  gap: 15.5px;
+}
+
+.coolicon {
+  width: 20px;
+  height: 18px;
+  background-image: url("../images/coolicon 2.svg");
+}
+
+.coolicon:hover {
+  background-image: url("../images/coolicon 3.svg");
+}
+
+.coolicon:active {
+  background-image: url("../images/coolicon 4.svg");
+}
+
+.eye {
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/Union 2.svg");
+}
+
+.eye:hover {
+  background-image: url("../images/Union 3.svg");
+}
+
+.carousel-item:hover {
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item .wrap_drop {
+  display: none;
+}
+
+.carousel-item:hover .wrap_drop {
+  display: flex;
+}
+/* ///////////////////////////////// */
+
+.slider-wrapper {
+  /* position: relative; */
+}
+
+.slides-container {
+  width: 100%;
+  display: flex;
+  height: 580px;
+  gap: 20px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+.slide-arrow {
+  width: 116px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.sale_wrapAll {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slide-arrow:hover,
+.slide-arrow:focus {
+  opacity: 1;
+}
+
+#slide-arrow-prev {
+  position: relative;
+  width: 54px;
+  height: 54px;
+  background: none;
+  border: 1px solid #303030;
+  border-radius: 50%;
+  transform: rotate(180deg);
+  opacity: 0.5;
+}
+
+#slide-arrow-next {
+  position: relative;
+
+  width: 54px;
+  height: 54px;
+  background: none;
+  border: 1px solid #303030;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+#slide-arrow-prev:hover,
+#slide-arrow-next:hover {
+  background-color: #f5f5f5;
+  opacity: 1;
+}
+
+.slide {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  flex: 1 0 100%;
+}
+
+.slides-container {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.slides-container::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.wrap_sale-card {
+  position: relative;
+  /* margin-top: 120px; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.sale_card {
+  box-sizing: border-box;
+  width: 420px;
+  height: 290px;
+  display: flex;
+  justify-content: end;
+  background-blend-mode: multiply;
+  background-image: url("../images/Union.png");
+  background-position: left 25.5px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #f8f8f8;
+}
+
+.sale_card-text {
+  margin-left: 26px;
+  margin-top: 72px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.sale_pers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #43807f;
+  max-width: 194px;
+  margin-top: 19px;
+}
+
+.sale_pers1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e24b33;
+  max-width: 194px;
+  margin-top: 19px;
+}
+
+.sale_pers2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e1a661;
+  max-width: 194px;
+  margin-top: 19px;
+}
+
+.text1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 160%;
+  color: #ffffff;
+}
+
+.text3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 160%;
+  color: #ffffff;
+}
+
+.img {
+  margin-top: 37px;
+  width: 200px;
+  height: fit-content;
+}
